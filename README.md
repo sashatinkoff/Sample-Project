@@ -20,6 +20,6 @@ https://github.com/sashatinkoff/Sample-Project/blob/master/com.isidroid.simplepr
 - Используется DI для создания обработчиков productUseCase и pictureUseCase, а также для создания глобального объекта Gson
 - Сборка производится в Android Studio 4.2 Canary 4, большинство зависимостей в состоянии alpha (гугловские)
 - Для обработка и показа фотографий используется библиотека Glide
-- ViewModel в Activity / Fragment создается с помощью ViewModelFactory и схемы @Binds @IntoMap @ViewModelKey
+- ViewModel в Activity / Fragment создается с помощью ViewModelFactory и схемы [@Binds @IntoMap @ViewModelKey](https://blog.kotlin-academy.com/understanding-dagger-2-multibindings-viewmodel-8418eb372848)
 - Данные хранятся в БД Realm
 - Все операции IO производятся с помощью корутин в диспетчере Dispatcher.IO
