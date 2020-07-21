@@ -1,0 +1,85 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'realm-android'
+}
+
+android {
+    compileSdkVersion config.compiledSdk
+    buildToolsVersion config.buildToolVersion
+
+    defaultConfig {
+        applicationId "com.isidroid.simpleproducts"
+        minSdkVersion config.minSdk
+        targetSdkVersion config.targetSdk
+
+        def versionMajor = 1
+        def versionMinor = 0
+        def versionPatch = 0
+        def versionBuild = 0
+
+        versionCode versionMajor * 100000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}.${versionBuild}"
+        setProperty("archivesBaseName", applicationId + "." + versionName)
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures { dataBinding true }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // google
+    implementation "androidx.core:core-ktx:$androidx_core"
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    implementation "com.google.android.material:material:$material"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:${swipe_refresh}"
+    implementation "androidx.fragment:fragment-ktx:$fragmentktx"
+    implementation "androidx.activity:activity-ktx:$activityx"
+
+
+    // Google Lifecycle
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    // optional - helpers for implementing LifecycleOwner in a Service
+    implementation "androidx.lifecycle:lifecycle-service:$lifecycle_version"
+    // optional - ProcessLifecycleOwner provides a lifecycle for the whole application process
+    implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
+    kapt "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    // tools
+    implementation "com.jakewharton.timber:timber:$timber"
+    implementation "com.google.dagger:dagger:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    implementation "com.google.code.gson:gson:$gson"
+    implementation("com.github.bumptech.glide:glide:$glide") {
+        exclude group: "com.android.support"
+    }
+    kapt "com.github.bumptech.glide:compiler:$glide"
+}

@@ -1,0 +1,185 @@
+{
+  "project_info": {
+    "project_number": "389000823373",
+    "firebase_url": "https://a18-test.firebaseio.com",
+    "project_id": "a18-test",
+    "storage_bucket": "a18-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:692d105ada1e9c21",
+        "android_client_info": {
+          "package_name": "com.isidroid.a18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:6f755c30e1e7a7ed385204",
+        "android_client_info": {
+          "package_name": "com.isidroid.b21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:53ee7e569bc3c58f",
+        "android_client_info": {
+          "package_name": "com.isidroid.firechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:37b046ae4e73dc9c385204",
+        "android_client_info": {
+          "package_name": "com.isidroid.lamoda2revo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:04e5a96b185ccc0e385204",
+        "android_client_info": {
+          "package_name": "com.isidroid.reddit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389000823373:android:fa21889538e78d2b385204",
+        "android_client_info": {
+          "package_name": "com.isidroid.reddit.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVuNnzs0JK_78l4l9yz2VLqzwOkp5y0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389000823373-7cvv32ibi47l2qe2s172l3japdagoto4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

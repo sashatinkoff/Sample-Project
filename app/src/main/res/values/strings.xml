@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ecwid Test</string>
+    <string name="label_product_list">Список продуктов</string>
+    <string name="no_products_found">Продукты не найдены</string>
+    <string name="action_add_product">Добавить продукт</string>
+    <string name="action_save_product">Сохранить изменения</string>
+    <string name="hint_product_name">Название</string>
+    <string name="confirm_close_edit_form">Внимание</string>
+    <string name="close_edit_form_message">Вы собираетесь закрыть форму, в этом случае все несохраненные изменения будут удалены</string>
+    <string name="close_form_and_save">Сохранить</string>
+    <string name="hint_product_price">Цена</string>
+    <string name="action_pick_image">Выберите картинку из галереи</string>
+    <string name="action_edit">Изменить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="confirm_delete_product">Удаление продукта</string>
+    <string name="delete_product_message">Вы действительно хотите удалить %s из каталога? Это действие нельзя отменить</string>
+    <string name="label_new_product">Новый продукт</string>
+    <string name="label_edit_product">Изменение продукта</string>
+    <string name="close_without_saving">Закрыть</string>
+    <string name="menu_import">Импорт</string>
+    <string name="menu_export">Экспорт</string>
+    <string name="export_completed">Экспорт завершен</string>
+    <string name="import_completed">Импорт завершен</string>
+</resources>
