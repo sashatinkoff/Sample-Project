@@ -23,3 +23,6 @@ https://github.com/sashatinkoff/Sample-Project/blob/master/com.isidroid.simplepr
 - ViewModel в Activity / Fragment создается с помощью ViewModelFactory и схемы [@Binds @IntoMap @ViewModelKey](https://blog.kotlin-academy.com/understanding-dagger-2-multibindings-viewmodel-8418eb372848)
 - Данные хранятся в БД Realm
 - Все операции IO производятся с помощью корутин в диспетчере Dispatcher.IO
+
+# Что не работает
+- Не реализован доступ к файлам на Android 10+ (изменилась схема доступа к файловой системе) 
