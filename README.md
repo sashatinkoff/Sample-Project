@@ -4,7 +4,7 @@
 1. Экран со списком продуктов (добавление, редактирование, удаление элемента + возможность импорта и экспорта в json файл)
 2. Экран создания / редактирования продукта
 
-https://github.com/sashatinkoff/Sample-Project/releases/tag/release%2F1.0.0e.apk
+https://github.com/sashatinkoff/Sample-Project/releases/tag/release/1.0.0
 Собранный проект для установки на устройстве
 
 ## Нюансы
