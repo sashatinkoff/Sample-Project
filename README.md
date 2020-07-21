@@ -4,7 +4,7 @@
 1. Экран со списком продуктов (добавление, редактирование, удаление элемента + возможность импорта и экспорта в json файл)
 2. Экран создания / редактирования продукта
 
-https://github.com/sashatinkoff/Sample-Project/blob/master/com.isidroid.simpleproducts.1.0.0.0-release.apk
+https://github.com/sashatinkoff/Sample-Project/releases/tag/release%2F1.0.0e.apk
 Собранный проект для установки на устройстве
 
 ## Нюансы
